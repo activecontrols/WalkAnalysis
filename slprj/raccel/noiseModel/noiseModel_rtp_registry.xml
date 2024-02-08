@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="50387c76-a693-444f-bc7c-173423caeec0">
+    <modelName>noiseModel</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="fd0b751e-3644-4cc7-85fd-51a0c44eb931">
+    <blockPath>noiseModel/Sample and Hold/ </blockPath>
+    <name>InitialOutput</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="5d788dce-fa58-46c0-8e1e-b4ef3a7afe30"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="5d788dce-fa58-46c0-8e1e-b4ef3a7afe30">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="fd0b751e-3644-4cc7-85fd-51a0c44eb931"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b6ba2f7d-2391-43a2-a612-de1c282f8901"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b6ba2f7d-2391-43a2-a612-de1c282f8901">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="5d788dce-fa58-46c0-8e1e-b4ef3a7afe30"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+</MF0>

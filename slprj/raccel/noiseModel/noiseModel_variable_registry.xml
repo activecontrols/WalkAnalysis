@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_parameter_tuning/R2021b">
+  <slsa.mm.parametertuning.VariableRegistry type="slsa.mm.parametertuning.VariableRegistry" uuid="956152cf-4da8-4d39-aeec-52261e261ef4">
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cd0de5cb-85a2-418a-aa0b-9c7ab7aa6505">
+      <blockPath>noiseModel/Sample and Hold/ </blockPath>
+      <parameterName>InitialOutput</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="5654c817-1df1-4921-82e7-9677531d9796"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="df7cd565-b1ac-4870-b985-1072b38a14a3">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <defaultValueCachePath>C:\Users\anigo\OneDrive\Documents\PSP\AC\noise_integration\slprj\raccel\noiseModel\noiseModel_default_variable_values.mat</defaultValueCachePath>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="2a712fcb-e62c-46fd-af4b-d64bddeb2e20">
+      <expression>0</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="eea42d9b-f643-4b13-be1b-a54cf8f3a302"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="5654c817-1df1-4921-82e7-9677531d9796">
+      <expression>initCond</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cd0de5cb-85a2-418a-aa0b-9c7ab7aa6505"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="69a052dd-9000-4a67-b792-08ee3b3ebe28"/>
+    </expressions>
+    <name>noiseModel</name>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="eea42d9b-f643-4b13-be1b-a54cf8f3a302">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="69a052dd-9000-4a67-b792-08ee3b3ebe28"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="2a712fcb-e62c-46fd-af4b-d64bddeb2e20"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="69a052dd-9000-4a67-b792-08ee3b3ebe28">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="eea42d9b-f643-4b13-be1b-a54cf8f3a302"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="5654c817-1df1-4921-82e7-9677531d9796"/>
+      <name>initCond</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="c3e56a43-e4ea-4c8b-b569-05c342e1356e"/>
+    </variables>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="c3e56a43-e4ea-4c8b-b569-05c342e1356e">
+      <name>noiseModel:5</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="69a052dd-9000-4a67-b792-08ee3b3ebe28"/>
+    </workspaces>
+  </slsa.mm.parametertuning.VariableRegistry>
+</MF0>
